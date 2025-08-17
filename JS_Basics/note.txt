@@ -1,0 +1,7 @@
+data types keywords
+  const
+  let 
+  var
+  with any about three key words
+
+"use Strict"; was used initial use to tell engine as newer version of the JS
