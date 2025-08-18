@@ -1,5 +1,5 @@
 //task 31 Create an array of 5 numbers.
-let numberArray = [11 , 2 , 3 , 4 , 5]
+let numberArray = [11 , 2 , 3 , 4 ,4 , 5]
 
 //task 32 Find length of the array.
 console.log(`Lenght of the Array ${numberArray.length}`);
@@ -60,7 +60,7 @@ numberArray = [11 , 2 , 3 , 4 , 5]
 console.log(numberArray.slice(-4 , 2));
 
 //task 45 Splice array to remove 2 elements.
-numberArray = [11 , 2 , 3 , 4 , 5]
+numberArray = [11 , 2 , 3 , 4 ,4 , 5]
 // console.log(numberArray.splice(0,2));
 
 console.log(numberArray);
@@ -101,4 +101,13 @@ console.log(flatArr);
 console.log(newArray.concat(numberArray));
 
 //task 53 Spread operator [...arr1, ...arr2].
+let mergedArray = [...numberArray, ...newArray]
+console.log(mergedArray);
 
+//task 54 Check if variable is an array.
+console.log(Array.isArray(numberArray));
+
+
+//task 55 Remove duplicates using Set.
+let sets = [...new Set(numberArray)]
+console.log(sets);
