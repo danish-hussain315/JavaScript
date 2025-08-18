@@ -56,6 +56,49 @@ console.log(numberArray.reverse());
 console.log(numberArray + " Danish");
 
 //task 44 Slice first 3 elements.
- numberArray = [11 , 2 , 3 , 4 , 5]
-console.log(numberArray.slice(2, 3));
+numberArray = [11 , 2 , 3 , 4 , 5]
+console.log(numberArray.slice(-4 , 2));
+
+//task 45 Splice array to remove 2 elements.
+numberArray = [11 , 2 , 3 , 4 , 5]
+// console.log(numberArray.splice(0,2));
+
+console.log(numberArray);
+
+
+//task 46 Use map to double each number.
+let newArray = numberArray.map(numberArray => numberArray*2)
+console.log(newArray);
+
+//tasl 47 Use filter to keep even numbers.
+let evenFilteredArray = numberArray.filter(numberArray => numberArray%2 ===0)
+console.log(evenFilteredArray);
+
+
+//task 48 Use reduce to find sum.
+let reduceSum = numberArray.reduce((sum, current) => sum + current , 0)
+console.log(reduceSum);
+
+
+//task 49 Find the max number in an array.
+let maximumNumber = Math.max(...numberArray)
+console.log(maximumNumber);
+
+
+//task 50 Find the min number in an array.
+let manimumNumber = Math.min(...numberArray)
+console.log(manimumNumber);
+
+
+//task 51 Flatten a nested array (flat).
+let arr = [1, 2, [3, 4], 5];
+
+let flatArr = arr.flat();
+
+console.log(flatArr);
+
+//task 52 Merge two arrays with concat.
+console.log(newArray.concat(numberArray));
+
+//task 53 Spread operator [...arr1, ...arr2].
 
