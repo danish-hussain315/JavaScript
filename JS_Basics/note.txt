@@ -5,3 +5,47 @@ data types keywords
   with any about three key words
 
 "use Strict"; was used initial use to tell engine as newer version of the JS
+
+JS is dynamically typed language 
+
+
+
+
+
+
+//Type of vaiable Primitive and non Primitive 
+most languages but names may vary).
+
+🔹 Primitive Data Types
+
+Primitives are basic, immutable (cannot be changed directly) data types.
+They are stored by value (a copy is created when assigned).
+
+
+
+Non Primitive
+
+Non-primitives are objects, which can hold multiple values.
+They are stored by reference (when assigned, both variables point to the same object).
+
+Example
+let obj1 = { name: "Ali" };
+let obj2 = obj1;   // both point to the SAME object in heap
+
+obj2.name = "Danish";
+
+console.log(obj1.name); // "Danish"
+
+
+
+
+++++++++++++++++++++++++++++++++++ Video 10 ++++++++++++++++++++
+Stack used by Primitive
+Heap is Used of Non-Primitive
+
+
+
+
+
+
+++++++++++++++++++++ Video 11 ++++++++++++++++++++++++++++++++++++
