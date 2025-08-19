@@ -49,3 +49,13 @@ Heap is Used of Non-Primitive
 
 
 ++++++++++++++++++++ Video 11 ++++++++++++++++++++++++++++++++++++
+
+🔹 What is String Interpolation?
+String interpolation means embedding variables or expressions inside a string instead of concatenating with +.
+
+In JavaScript, this is done with Template Literals (using backticks `).
+
+
+*string comparision is case sensitive
+*String Prototype will tell about the all funtion that can be apply on the String
+* on apply of any funtion primitives never change the orignal variables
