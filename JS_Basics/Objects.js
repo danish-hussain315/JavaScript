@@ -27,3 +27,13 @@ console.log("age" in my_obj);
 
 let keys = Object.keys(my_obj)
 console.log(keys);
+
+
+//task 63 Use Object.values(obj).
+let valuess = Object.values(my_obj)
+console.log(valuess);
+
+
+//task 64 Use Object.entries(obj).
+let entry = Object.entries(my_obj)
+console.log(entry);
