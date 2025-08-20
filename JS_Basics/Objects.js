@@ -86,11 +86,25 @@ console.log(typeof my_obj);
 
 
 //task 72 Create an array of objects (students).
-let students = [{name : "Danish "}, {name : "Hussain"}]
+let students = [
+  {name : "Danish"},
+  {name : "Hussain"}
+]
 
 
 
 //task 73 Find object by property in array.
+let seacrhedByProperty = students.find(student => student.name === "Danish")
+console.log(seacrhedByProperty)
+
+//task 74  . Update object property inside array.
+seacrhedByProperty.name = "Zahid"
+seacrhedByProperty.age = 25
+
+console.log(seacrhedByProperty);
+
+// task 78 Delete object from array.
+students.shift()
+console.log(students);
 
 
-//task 74
