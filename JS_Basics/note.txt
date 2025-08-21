@@ -145,3 +145,13 @@ funtion execution (greeting())
 assign() is used to merge objects
 
 
+
+
+
++++++++++++++++++++ video 18 Object Part 3 De Structuring JSON Intro +++++++++++++++++
+Object de-Structure 
+API => your work on other
+All Apis are in form of JSON 
+* Random Api used to take few Api
+* API Formattor used to post Martum of API
+
