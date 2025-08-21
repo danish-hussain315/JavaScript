@@ -107,3 +107,17 @@ If the array/object contains primitives → new values are created (safe).
 
 If it contains objects/arrays inside → only references (pointers) are copied, so nested data is shared between original and copy.
 
+
+
+
+
+++++++++++++++++++++++ Video 15 Array Part 2 ++++++++++++++++++++++++
+* arr.push(array)      //consider a array as the element
+* arr.concate(array )  // make a large array
++ newArray = [...arr1 , ...arr2, n]           // make a large array
+* newArray.flat(level)  //reduced the level og nested arrays
+* isArray(arrya)
+*Array.from()     // From Converts the string to the character Array
+*Array.from({name = "Danish"})        // It will return empty object
+* Array.of(variables)         // creates array from variable
+
