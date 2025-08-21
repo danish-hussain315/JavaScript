@@ -121,3 +121,20 @@ If it contains objects/arrays inside → only references (pointers) are copied, 
 *Array.from({name = "Danish"})        // It will return empty object
 * Array.of(variables)         // creates array from variable
 
+
+
+
+
+
++++++++++++++++++ video 16 Object First Part +++++++++++++
+Object types
+  1 Singleton Object   Object.create("my_Object")
+  2 Literals Object            my_Object = {}
+
+  Aceesing Object dotNotation and Square brackets
+  Using Symbol as property of the object used square brackets
+funtion reference (greeting)
+funtion execution (greeting())
+
+
+
