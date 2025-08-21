@@ -64,3 +64,11 @@ In JavaScript, this is done with Template Literals (using backticks `).
 
 
 +++++++++++++++++++++++++++++ Video 12 +++++++++++++++++
+
+Number and Math Libray
+
+
+++++++++++++++++++++++++++ Video 13 ++++++++++++++++++
+*Date is Object 
+*Date give by system is unreadable so we uses the method to make is understandable
+*Months start from 0
