@@ -68,7 +68,42 @@ In JavaScript, this is done with Template Literals (using backticks `).
 Number and Math Libray
 
 
-++++++++++++++++++++++++++ Video 13 ++++++++++++++++++
+++++++++++++++++++++++++++ Video 13 Data and Time ++++++++++++++++++
 *Date is Object 
 *Date give by system is unreadable so we uses the method to make is understandable
 *Months start from 0
+
+
+
++++++++++++++++ Video 14  Array +++++++++++++++++++++++++++++++
+* Array Takes multiple values 
+* Array can store different dataTypes at same Time (Hetrogene type)
+* JS array is dynamic 
+* Array created shallow copy (same refference) rather than the Deep copy()
+* in Deep copy we are assured that we are not changing the other copy either orignal or copy
+* In Shallow copy we are ensured that when I change single other will auto changed
+* there are few methods that are called Questioneer they return true ow false
+  includes()
+* indexOf()  indexs -1 to till index
+* join() convert array values to strings and remove square brackets
+* slice and splice
+ slice(startindex , endIndex)
+ splice(start, deleteCount, [value to insert(optional)])
+* slice endIndex is not Indcluded and 
+  used the deep copy when data in Array is Primitive
+  used the shallow copy when data in Array is Non-Primitive
+
+
+✅ Deep Copy
+
+A deep copy creates a completely independent copy, including all nested objects/arrays.
+Changing one does not affect the other.
+
+✅ Shallow Copy
+
+A shallow copy only copies the first level of the object/array.
+
+If the array/object contains primitives → new values are created (safe).
+
+If it contains objects/arrays inside → only references (pointers) are copied, so nested data is shared between original and copy.
+
