@@ -137,4 +137,11 @@ funtion reference (greeting)
 funtion execution (greeting())
 
 
++++++++++++++++++++ Video 17 Object part 2 ++++++++++++
+* Previous Video was about the Literal Object
+* It Singleton Object
+   Object that can be created by constructor or Object help
+
+assign() is used to merge objects
+
 
