@@ -215,3 +215,23 @@ let addTwo = function(num){     // expersion funtion can not call before declera
 }                               // this will give error before decleration function called
 var a= 10
 console.log(a);    
+
+
+
+++++++++++++++++++ video 23 IIFE +++++++++++++
+* funtion that called imdiately due to avoid global pollution
+* once IIFE start it never know where to stop so ";" is mandatory to stop it
+* if you write two iife at once then don't miss ; 
+(function  newFunction(){                    // IIFE in Normal function
+  console.log("IIFE");                        // also called named IIFE
+  
+})();
+
+(() => {                                        //IIFE with the arrow function 
+  console.log("From Arrow function")
+})();
+
+
+((valuess) => {                                 // passing the values to the arrow function IIFE
+  console.log("From Arrow function" , valuess)
+})("Danish")
