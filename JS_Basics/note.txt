@@ -161,3 +161,9 @@ All Apis are in form of JSON
 
 +++++++++++++++++++video 20 Funtions with Objects and Arrays +++++++++++++++
 Rest Operator
+
+
+
+
+++++++++++++++++++++++ Video 21 Functions Global and Local Scope ++++++++++++++
+Global scope in node and console is different
