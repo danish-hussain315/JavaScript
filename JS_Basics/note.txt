@@ -167,3 +167,33 @@ Rest Operator
 
 ++++++++++++++++++++++ Video 21 Functions Global and Local Scope ++++++++++++++
 Global scope in node and console is different
+* window.a ,window.z
+* Global.a , Global.z
+
+
+
++++++++++++++++++++  Video 22 This and Arrow Function in JavaScript ++++++++++++++
+* this reference to the current context
+* this give in node at Global scope empty object  { } and in browser gives window, Global etc
+  when we are in Node Environment
+  * Just console.log(this) gives the empty object
+  * in Function console.log(this)  gives lot of object that are running in node Environment
+    but in arrow function this will give empty Object bC this global object
+Arrow Function
+* Explicit arrow Function must use of return statement and curly brackets
+* rest function will called Implicit arrow Function
+
+// Explicit Arrow Function must uses the {} and return statement
+let add = (num1 , num2) => {          
+  return  num1 +num2
+}
+
+console.log(add(4,14));
+
+//Implicit Arrow Function most used in React 
+let sub = (a , b) => a -b
+console.log(sub(24 ,4));
+
+// this santax is also used to return Object and arrays
+let sub2Implicit = (a ,b) => (a-b)         
+console.log(sub2Implicit(28 ,4));
