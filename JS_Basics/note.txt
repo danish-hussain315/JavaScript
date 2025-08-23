@@ -269,3 +269,9 @@ console.log(val2);
 
             +++++++++++ Ternaary Operator +++++
 condition ? whenture :  whenFalse
+
+
+
+++++++++++++++++++ Video 27 While and do While +++++++++++++++++++++++++++++
+while loop
+do while Loop    // atleast oneTime run
