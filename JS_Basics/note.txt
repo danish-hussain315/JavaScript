@@ -218,7 +218,7 @@ console.log(a);
 
 
 
-++++++++++++++++++ video 23 IIFE +++++++++++++
+++++++++++++++++++ video 24 IIFE +++++++++++++
 * funtion that called imdiately due to avoid global pollution
 * once IIFE start it never know where to stop so ";" is mandatory to stop it
 * if you write two iife at once then don't miss ; 
@@ -235,3 +235,37 @@ console.log(a);
 ((valuess) => {                                 // passing the values to the arrow function IIFE
   console.log("From Arrow function" , valuess)
 })("Danish")
+
+
+
+
+
+
+
+++++++++++++++++++++ video 25 Code execution and Call Stack ++++++++++++++++++++++++++
+JavaScript execution Context
+  * How JS run your file there are two phases
+  1 GEC Global execution Context 
+  2 FEC Functional exection context
+  3 Eval exection Context
+
++++++++++++++++++ Video 26 Control Structure ++++++++++++++++++++
+switch statement
+truthy and False 
+  * Falsy           // assumed as false
+  false , 0, -0 , 0n of bigInt, "", NaN, null , undefined
+  * truthy
+  true , '0', 'false' , [] , {}, function(){} , 
+
+
++++++++++++++++++ Truth and Falsy Values +++++++++++++++++++++++++
+Nullish coalescing opererotr (??) null undefined      // it work on null and undefined during value assign
+let val = 2 ?? 4
+let val1 = null ?? 4
+let val2 = undefined ?? null
+console.log(val);
+console.log(val1);
+console.log(val2);
+
+            +++++++++++ Ternaary Operator +++++
+condition ? whenture :  whenFalse
