@@ -351,3 +351,5 @@ Foreach  // is just for iteration don't rerurn any thing
 
 
 
+NOtes
+// Function Expression is when you use the variable which has assigned a function
