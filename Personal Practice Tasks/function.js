@@ -161,3 +161,48 @@ function reverseString(str) {
 
 console.log(reverseString("hussain")); // niassuh
 console.log(reverseStrings()); */
+
+
+
+
+/* 
+//++++++++++++++++ Function to count vowels in string.++++++++++
+
+const countVovels = (word = "Danish") =>{
+  let count = 0
+  word = word.toLowerCase()
+  let spliedWord = word.split("")
+  for (let i = 0; i < spliedWord.length; i++) {
+    if (spliedWord[i] == 'a' || spliedWord[i] == 'e' || spliedWord[i] == 'i' || spliedWord[i] == 'o' || spliedWord[i] == 'u') {
+      count++
+    }
+    
+  }
+  return count
+}
+
+
+console.log(countVovels("Meanei")); */
+
+
+
+
+
+
+
+/* 
+// +++++++++++++++++ Assending Sorting ++++
+let array = [1,4,2,6,4,3,9]
+
+array.sort((a, b) => a - b)
+console.log(array);
+
+
+
+
+// +++++++++++++++ Function to convert array → object with indexes as keys. ++++++++++++
+function arraytoObjectIndexAsKey(arr){
+  return Object.assign({} , arr)
+}
+
+console.log(arraytoObjectIndexAsKey(['a' , 'v,', 'c', 'd'])); */
