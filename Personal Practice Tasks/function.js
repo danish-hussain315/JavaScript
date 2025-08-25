@@ -73,10 +73,25 @@ console.log(functionExpressiong());
 
 
 
-
+/*
 //++++++++++++++++++++++++  Write an arrow function. +++++
 const printThroughTheArrowFunction = () => {return "Printed From Arrow Function"}
 const printThroughTheArrowFunctionWithourReturn = () =>  "Printed From Arrow Function Without Return"
 console.log(printThroughTheArrowFunction());
 console.log(printThroughTheArrowFunctionWithourReturn());
+*/
 
+
+
+
+
+
+// ++++++++++++++++++ Return multiple values from function (object/array). +++++++++++++++
+// let returmArrayFromFuntion = function retunsFrom(){
+//   return ["danish", "Hussain", "Mangi"]
+// }
+
+let returmArrayFromFuntion = function retunsFrom(){
+  return  {"array" : ["danish", "Hussain", "Mangi"]}
+}
+console.log(returmArrayFromFuntion().array[0]);
