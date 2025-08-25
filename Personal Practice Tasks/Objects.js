@@ -103,7 +103,7 @@ seacrhedByProperty.age = 25
 
 console.log(seacrhedByProperty);
 
-// task 78 Delete object from array.
+// task 75 Delete object from array.
 students.shift()
 console.log(students);
 
