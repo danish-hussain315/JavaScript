@@ -6,7 +6,12 @@
 var twoSum = function(nums, target) {
   let firstNumber = 0
   let secondNumber = 0
-  in
+  let firstIndex = 0
+  let secondIndex = 0
+  for(let i=0; i<nums.length ; i++){
+
+  }
+  log
 
 
   return 0
