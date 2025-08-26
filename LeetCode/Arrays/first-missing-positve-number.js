@@ -49,19 +49,19 @@ var firstMissingPositive = function(nums) {
       min = nums[i]
     }
   }
-  console.log(min);
-  
+
+  let index = 0
   let count=min
   if(max <= 0){
     return 1
-  }else if(min >= 1){
+  }else if(min > 1){
     return 1
   }else{
     while(true){
-
+      if()
     }
   }
   return max
 };
 
-console.log(firstMissingPositive([7,8,9,11,12]));
+console.log(firstMissingPositive([2,8,9,11,12]));
