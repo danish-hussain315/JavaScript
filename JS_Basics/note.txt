@@ -285,6 +285,11 @@ Foreach  // is just for iteration don't rerurn any thing
 
 ++++++++++ Higher order array loops +++++++
 * for of loog can be instead of for loop
+Maps 
+  * It is like a Onbject we have to create it using new Map()
+  * Contains key and value pair
+  * store only unique value
+  * constains lot of bultin functions on Maps
 
 
 
