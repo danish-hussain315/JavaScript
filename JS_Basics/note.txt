@@ -283,6 +283,10 @@ do while Loop    // atleast oneTime run
 Foreach  // is just for iteration don't rerurn any thing
 
 
+++++++++++ Higher order array loops +++++++
+* for of loog can be instead of for loop
+
+
 
 
 
