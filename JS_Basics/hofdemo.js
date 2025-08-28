@@ -18,4 +18,21 @@ for (const greet of greeting) {
 
 
 let map = new Map()
-map.set()
+map.set(1 , "Danish")
+map.set(2 , "Jam")
+map.set("1" , "Danish")
+map.set(1 , "Danish Hussain")
+
+
+console.log(map);
+// Maps accessed by Loop and proofing itreatable
+for (const key of map) {
+  // console.log(key[1]);
+  
+}
+
+
+for (const [key, value] of map) {                 // using destructuring
+  console.log(key);
+  
+}
