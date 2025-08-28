@@ -33,35 +33,39 @@ Constraints:
 -231 <= nums[i] <= 231 - 1 */
 
 
+// patern by Geminai
+/* const firstMissingPositive = (nums) => {
+    const n = nums.length;
 
-var firstMissingPositive = function(nums) {
-  //finding Max Number
-  let max = nums[0];
-  for (let i = 0; i < nums.length; i++) {
-    if(nums[i] > max){
-      max = nums[i]
+    // Use the array as a hash map to place numbers in their correct positions.
+    for (let i = 0; i < n; i++) {
+        // We want to place nums[i] at index nums[i] - 1.
+        // We also need to check if the number is within the range [1, n] and
+        // if the number at the target index is not already the correct number
+        // to avoid infinite loops with duplicate values.
+        while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] !== nums[i]) {
+            const correctIndex = nums[i] - 1;
+            // Swap the numbers.
+            [nums[i], nums[correctIndex]] = [nums[correctIndex], nums[i]];
+        }
     }
-  }
-  //finding Minimum Number
-  let min = nums[0]
-  for (let i = 0; i < nums.length; i++) {
-    if(nums[i] < min){
-      min = nums[i]
-    }
-  }
 
-  let index = 0
-  let count=min
-  if(max <= 0){
-    return 1
-  }else if(min > 1){
-    return 1
-  }else{
-    while(true){
-      if()
+    // After the first loop, the array is partially sorted.
+    // The first index i where nums[i] is not i + 1 is the missing positive integer.
+    for (let i = 0; i < n; i++) {
+        if (nums[i] !== i + 1) {
+            return i + 1;
+        }
     }
-  }
-  return max
+
+    // If all numbers from 1 to n are present, the smallest missing positive
+    // integer is n + 1.
+    return n + 1;
 };
+ */
 
-console.log(firstMissingPositive([2,8,9,11,12]));
+
+
+
+
+console.log(firstMissingPositive([1,2,0]));
