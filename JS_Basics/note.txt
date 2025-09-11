@@ -300,8 +300,12 @@ Maps
 
 
 
+++++++++++++ Video 33 +++++++++++
+* parent access by querySelector(".parent")                               // return full HTML
+* let parent = document.querySelectorAll(".day")          // return nodelist of class day
 
-
+* console.log("Nodes :::: " , parent.childNodes);     //showing 9 nodes bc it counts the enter as node
+                                                        but counts only 1 enter as node remaining escape
 
 
 
