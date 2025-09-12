@@ -307,7 +307,11 @@ Maps
 * console.log("Nodes :::: " , parent.childNodes);     //showing 9 nodes bc it counts the enter as node
                                                         but counts only 1 enter as node remaining escape
 
-
+++++++++++++ Video 34 Edit and Delete Elements Through the DOM ++++++++
+* secondLi.innerHTML = language
+* li.textContent = language
+lot of other and otimized pattern, to see visit following file
+edit-delete-element-Dom.html
 
 
 
