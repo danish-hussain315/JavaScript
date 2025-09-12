@@ -69,6 +69,16 @@
   forthLi.outerHTML = "<li>Assembly</li>"
 
 
+
+
+
+  //Removing Element of index
+  function removeNthElement(index){
+    const nthElement = document.querySelector(`li:nth-child(${index})`)
+    nthElement.remove()
+  }
+removeNthElement(1)
+
 </script>
 
 </html>
