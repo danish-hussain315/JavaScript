@@ -386,9 +386,22 @@ Types of Events
     • online / offline → when internet connection changes
 
 
+5 patterns to use events in JS
+INline li onclick="functionName" >Java</li>        // worst Practice
+document.querySelector().onclick() = function Name(){}                    //better than Previous
+
+const myElement = document.querySelector()
+myElement.addEventListener(event, callBackFunction , false)
+
+//attachEvent()         // event internet Explorer used  // obslite
+// on()     // in JQuery event , JQuery was fovourite like React at that time
 
 
-
+Recommended topic to Study
+Event Types , timestamp , preventDefault and defaultPrevented
+Target , toElement , srcElement , currentTarget
+ClientX , ClientY, screenX , screenY
+altkey, shiftKey, cnrotKey , KeyCOde
 
 
 
