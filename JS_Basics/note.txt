@@ -315,6 +315,77 @@ edit-delete-element-Dom.html
 
 
 
+++++++++++++++++++++ video 35 Projects ++++++++++
+
+
+
++++++++++++++++++ video 36 Events in JS +++++++++++++++++
+Types of Events
+  1. Mouse Events
+    • click → when mouse is clicked
+    • dblclick → double-click
+    • mousedown → when mouse button is pressed down
+    • mouseup → when mouse button is released
+    • mousemove → when mouse moves over element
+    • mouseover → when mouse enters element
+    • mouseout → when mouse leaves element
+    • contextmenu → right-click
+  2. Keyboard Events
+    • keydown → when key is pressed down
+    • keypress → when a key is pressed (deprecated, use keydown)
+    • keyup → when key is released
+  3. Form / Input Events
+    • submit → when form is submitted
+    • reset → when form is reset
+    • focus → when input gets focus
+    • blur → when input loses focus
+    • change → when input/select/textarea value changes
+    • input → when user types in an input field
+    • invalid → when a form field is invalid
+  4. Document / Window Events
+    • load → when page finishes loading
+    • DOMContentLoaded → when HTML is fully loaded (before images, CSS)
+    • resize → when window is resized
+    • scroll → when page is scrolled
+    • unload → when user leaves page (deprecated, use beforeunload)
+    • beforeunload → before the page unloads
+  5. Clipboard Events
+    • copy → when content is copied
+    • cut → when content is cut
+    • paste → when content is pasted
+  6. Drag & Drop Events
+    • dragstart   
+    • drag
+    • dragenter
+    • dragover
+    • dragleave
+    • drop
+    • dragend
+  7. Touch Events (Mobile/Tablet)
+    • touchstart → when finger touches screen
+    • touchmove → when finger moves on screen
+    • touchend → when finger is lifted
+    • touchcancel → touch interrupted
+  8. Media Events (Audio/Video)
+    • play → media starts playing
+    • pause → media is paused
+    • ended → media has finished playing
+    • volumechange → volume is changed
+    • timeupdate → current play time updates
+    • seeking / seeked → when seeking in video
+  9. Animation & Transition Events (CSS)
+    • animationstart
+    • animationend
+    • animationiteration
+    • transitionstart
+    • transitionend
+  10. Other Useful Events
+    • error → when an error occurs (image load fail, script error)
+    • wheel → when mouse wheel is used
+    • pointerdown, pointerup, pointermove → modern replacement for mouse + touch events
+    • online / offline → when internet connection changes
+
+
 
 
 
