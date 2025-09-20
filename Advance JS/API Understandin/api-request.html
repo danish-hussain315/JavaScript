@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+  const hiteshUrl = "https://api.github.com/users/hiteshchoudhary"
+  let xhr = new XMLHttpRequest()
+  console.log( "XMl HTTP Request Objecct is Just Created (Unsent) or 0 " , xhr.readyState);
+  xhr.open("GET" , hiteshUrl)
+  console.log( "XMl HTTP Request Objecct is Just Opened  or 1 " , xhr.readyState);
+
+
+  xhr.onreadystatechange = () => {
+    console.log(xhr.readyState);
+    if(xhr.readyState == 3){
+      console.log("From download" , xhr.responseText);
+      
+    }else if(xhr.readyState == 4){
+      console.log("From download 4 " , xhr.responseText);
+    }
+  }
+  xhr.send()
+</script>
+</html>
