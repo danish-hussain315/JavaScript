@@ -407,6 +407,11 @@ altkey, shiftKey, cnrotKey , KeyCOde
 
 
 
+++++++++++++++++++++++ 38 Sync and Async ++++++++++++++++
+
+setTimeout( callback , time , ValueToPassForYourWork)                     //Method that calls Api
+setInterval( callback , time , ValueToPassForYourWork)   
+                   
 
 
 
