@@ -411,9 +411,49 @@ altkey, shiftKey, cnrotKey , KeyCOde
 
 setTimeout( callback , time , ValueToPassForYourWork)                     //Method that calls Api
 setInterval( callback , time , ValueToPassForYourWork)   
-                   
 
 
+
+
+++++++++++++++++++++ HTTp Request ++++++++++++
+these method was early used to API data fetching
+Five State of Request
+unsent 0
+open 1
+HEADERS_RECEIVED (send funtion done)  2
+loading 3
+done 4 
+
+
+Exampele
+let xhr = new XMLHttpRequest();
+xhr.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+
+xhr.onreadystatechange = function () {
+  console.log("Ready state: " + xhr.readyState);
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    console.log("Response: ", xhr.responseText);
+  }
+};
+
+xhr.send();
+
+++++++++++++++++++ Video 40  Advance Js Promise ++++++++++++
+* Promise is result of callback chaning and hell
+* Q and blueBird was used instead of Promise
+
+*A Promise is an object in JavaScript that represents the eventual completion (success) or failure (error) of an asynchronous operation.
+Think of it like a contract:
+
+"I promise I’ll give you a result later, either success or failure."
+
+
+2. States of a Promise
+A promise can be in one of three states:
+Pending → The initial state. The operation hasn’t finished yet.
+Fulfilled → The operation completed successfully, and the promise has a value (result).
+Rejected → The operation failed, and the promise has a reason (error).
+Once a promise is fulfilled or rejected, it becomes settled (it won’t change state again).
 
 
 
