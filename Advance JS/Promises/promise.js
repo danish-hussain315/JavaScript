@@ -39,7 +39,7 @@ promiseThree.then((user) => {
 })
  */
 
-
+/* 
 
 
 let promiseFour = new Promise(function (resolve , reject){
@@ -61,4 +61,33 @@ promiseFour.then(function(user){            //return statement in
 })
 .catch((msg)=>{
   console.log(msg);
+}) */
+
+
+
+
+/* const promiseFive = new Promise(function (resolve , reject){
+  setTimeout(function(){
+    let checkUp = true
+  if(checkUp){
+    resolve({"username" : "Danish Hussain" , id : 123})
+  }else{
+    reject("Reject is Called")
+  }
+  },1000)
+  
 })
+
+
+async function ConsumePromiseFive() {                              // please apply try catch block for the reject result
+  let promiseFiveReturned = await promiseFive
+  console.log(promiseFiveReturned);
+}
+
+ConsumePromiseFive() */
+
+
+
+async function async_await() {
+  fetch("")
+}
